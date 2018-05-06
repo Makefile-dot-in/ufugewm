@@ -1,0 +1,13 @@
+package main
+
+import (
+	"os/exec"
+	"os"
+	"path"
+)
+
+func ExecAutostart() *exec.Cmd {
+	configFileName, err := xdg.Config.Find("ufugewm/autostart")
+	if err != nil {
+		configFileName, err := xdg.Config.Find
+}
